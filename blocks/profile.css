@@ -8,6 +8,7 @@
   height: 190px;
   width: 190px;
   margin-right: 20px;
+  border-radius: 8px;
 }
 
 .profile__column {
@@ -25,6 +26,7 @@
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+  color: #212121;
 }
 
 .profile__description {
@@ -34,7 +36,10 @@
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
-  opacity: 70%;
+  font-size: 16px;
+  line-height: 1;
+  font-weight: 500;
+  color: #212121b2;
 }
 
 .profile__edit-btn {
@@ -43,6 +48,18 @@
   border: none;
   margin-right: auto;
   opacity: 70%;
+  cursor: pointer;
+  padding: 0;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.profile__edit-btn:hover {
+  opacity: 0.9;
 }
 
 .profile__pencil-icon {
