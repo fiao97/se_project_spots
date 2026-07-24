@@ -28,7 +28,7 @@ block lives in its own CSS file under `blocks/`, imported through `pages/index.c
 
 ## Project Pitch Video
 
-Check out [this video](PASThttps://drive.google.com/file/d/1EtQOikCPkZ_35kPEeeTCKIM_YGqKQEyl/view?usp=drive_linkE_YOUR_DRIVE_LINK_HERE), where I walk through the Spots
+Check out [this video](https://drive.google.com/file/d/1EtQOikCPkZ_35kPEeeTCKIM_YGqKQEyl/view?usp=drive_link), where I walk through the Spots
 project, my process, the challenges I faced, and what I learned along the way.
 
 ## Tech Stack
