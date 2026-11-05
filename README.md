@@ -13,7 +13,7 @@ The page is made up of four main sections:
 - **Header** — the Spots logo.
 - **Profile** — the user's avatar, name, and description, along with "Edit Profile"
   and "New Post" buttons.
-- **Cards** — a responsive grid of photo cards, each with an image, a title, and a
+- **Cards** — a responsive grid of photo cards, each with an image, a title, a
   like button and a delete button.
 - **Footer** — a simple copyright line.
 
@@ -25,6 +25,8 @@ ratio and fill their card without distortion.
 
 The project is written in semantic HTML and organized with the BEM methodology — each
 block lives in its own CSS file under `blocks/`, imported through `pages/index.css`.
+
+## Features
 
 - **Dynamic cards** — cards are generated with JavaScript from an array of data
   using an HTML `<template>`, instead of being hard-coded in the HTML.
