@@ -12,6 +12,11 @@
   display: block;
   border-radius: 8px;
   margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.card__image:hover {
+  opacity: 0.9;
 }
 
 .card__content {
@@ -54,7 +59,7 @@
   height: 20px;
   border: none;
   background-color: transparent;
-  opacity: 40%;
+  opacity: 0.4;
   cursor: pointer;
   padding: 0;
   background-size: contain;

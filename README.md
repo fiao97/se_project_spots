@@ -1,6 +1,6 @@
-# Project 3: Spots
+# Spots
 
-An image sharing site
+An interactive image-sharing site
 
 ## Description
 
@@ -14,7 +14,7 @@ The page is made up of four main sections:
 - **Profile** — the user's avatar, name, and description, along with "Edit Profile"
   and "New Post" buttons.
 - **Cards** — a responsive grid of photo cards, each with an image, a title, and a
-  like button.
+  like button and a delete button.
 - **Footer** — a simple copyright line.
 
 The card grid uses CSS Grid with `auto-fit` so cards reflow into as many columns as
@@ -26,6 +26,15 @@ ratio and fill their card without distortion.
 The project is written in semantic HTML and organized with the BEM methodology — each
 block lives in its own CSS file under `blocks/`, imported through `pages/index.css`.
 
+- **Dynamic cards** — cards are generated with JavaScript from an array of data
+  using an HTML `<template>`, instead of being hard-coded in the HTML.
+- **Edit profile** — a modal form updates the user's name and description.
+- **New post** — a modal form adds a new card to the top of the grid.
+- **Like** — clicking the heart toggles the card's liked state.
+- **Delete** — the trash icon removes a card from the page.
+- **Image preview** — clicking a card image opens a modal with a larger version
+  and its caption.
+
 ## Project Pitch Video
 
 Check out [this video](https://drive.google.com/file/d/1EtQOikCPkZ_35kPEeeTCKIM_YGqKQEyl/view?usp=drive_link), where I walk through the Spots
@@ -33,9 +42,12 @@ project, my process, the challenges I faced, and what I learned along the way.
 
 ## Tech Stack
 
-- HTML
-- CSS
-- Responsive Design
+- HTML5 (semantic markup, `<template>`)
+- CSS3 (Flexbox, Grid, media queries)
+- JavaScript (DOM manipulation, event listeners)
+- BEM methodology
+- Responsive design
+- Git & GitHub Pages
 
 ## Deployment
 
