@@ -10,7 +10,7 @@
     <meta name="author" content="Joao Philipe" />
     <meta
       name="keywords"
-      content="HTML, CSS, JavaScipt, BEM, responsive design, photo sharing"
+      content="HTML, CSS, JavaScript, BEM, responsive design, photo sharing"
     />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
@@ -81,24 +81,37 @@
             aria-label="Close modal"
           ></button>
           <h2 class="modal__title">Edit profile</h2>
-          <form class="modal__form">
+          <form class="modal__form" id="edit-profile-form" novalidate>
             <label for="profile-name-input" class="modal__label"
               >Name
               <input
                 id="profile-name-input"
-                type="text"
                 class="modal__input"
+                name="name"
                 placeholder="Type your name"
+                type="text"
+                minlength="2"
+                maxlength="40"
+                required
               />
+              <span id="profile-name-input-error" class="modal__error"></span>
             </label>
             <label for="profile-description-input" class="modal__label">
               Description
               <input
                 id="profile-description-input"
-                type="text"
                 class="modal__input"
+                name="description"
                 placeholder="Describe yourself"
+                type="text"
+                minlength="2"
+                maxlength="200"
+                required
               />
+              <span
+                id="profile-description-input-error"
+                class="modal__error"
+              ></span>
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
           </form>
@@ -112,16 +125,18 @@
             aria-label="Close modal"
           ></button>
           <h2 class="modal__title">New post</h2>
-          <form class="modal__form">
+          <form class="modal__form" id="card-form" novalidate>
             <label for="card-image-input" class="modal__label"
               >Image link
               <input
                 id="card-image-input"
-                type="url"
                 class="modal__input"
+                name="link"
                 placeholder="Paste a link to the picture"
+                type="url"
                 required
               />
+              <span id="card-image-input-error" class="modal__error"></span>
             </label>
 
             <label for="card-caption-input" class="modal__label">
@@ -130,9 +145,13 @@
                 id="card-caption-input"
                 type="text"
                 class="modal__input"
+                name="caption"
                 placeholder="Type your caption"
+                minlength="2"
+                maxlength="30"
                 required
               />
+              <span id="card-caption-input-error" class="modal__error"></span>
             </label>
             <button type="submit" class="modal__submit-btn">Save</button>
           </form>
@@ -151,7 +170,7 @@
         <p class="modal__caption"></p>
       </div>
     </div>
-
+    <script src="./scripts/validation.js"></script>
     <script src="./scripts/index.js"></script>
   </body>
 </html>

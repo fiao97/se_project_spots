@@ -36,17 +36,24 @@ block lives in its own CSS file under `blocks/`, imported through `pages/index.c
 - **Delete** — the trash icon removes a card from the page.
 - **Image preview** — clicking a card image opens a modal with a larger version
   and its caption.
+- **Form validation** — every form checks its inputs as you type, shows the
+  browser's error message under each field, and keeps the Save button disabled
+  until the form is valid.
+- **Modal UX** — modals close with the Escape key or by clicking the dark overlay.
 
 ## Project Pitch Video
 
-Check out [this video](https://drive.google.com/file/d/1EtQOikCPkZ_35kPEeeTCKIM_YGqKQEyl/view?usp=drive_link), where I walk through the Spots
-project, my process, the challenges I faced, and what I learned along the way.
+Check out these videos, where I describe my project and some challenges I faced
+while building it:
+
+- [Spots – Responsive layout (HTML & CSS)](https://drive.google.com/file/d/1EtQOikCPkZ_35kPEeeTCKIM_YGqKQEyl/view?usp=drive_link)
+- [Spots Stage 9 – Form validation and modal UX](MY_NEW_LINK)
 
 ## Tech Stack
 
 - HTML5 (semantic markup, `<template>`)
 - CSS3 (Flexbox, Grid, media queries)
-- JavaScript (DOM manipulation, event listeners)
+- JavaScript (DOM manipulation, event listeners, form validation)
 - BEM methodology
 - Responsive design
 - Git & GitHub Pages
