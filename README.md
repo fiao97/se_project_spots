@@ -41,13 +41,13 @@ block lives in its own CSS file under `blocks/`, imported through `pages/index.c
   until the form is valid.
 - **Modal UX** — modals close with the Escape key or by clicking the dark overlay.
 
-## Project Pitch Video
+## Project Pitch Videos
 
 Check out these videos, where I describe my project and some challenges I faced
 while building it:
 
 - [Spots – Responsive layout (HTML & CSS)](https://drive.google.com/file/d/1EtQOikCPkZ_35kPEeeTCKIM_YGqKQEyl/view?usp=drive_link)
-- [Spots Stage 9 – Form validation and modal UX](MY_NEW_LINK)
+- [Spots Stage 9 – Form validation and modal UX](https://www.loom.com/share/a19814db13e74c29bacb717552c462e1)
 
 ## Tech Stack
 
